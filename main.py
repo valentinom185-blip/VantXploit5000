@@ -131,10 +131,16 @@ class App(ctk.CTk):
         self.agregar_boton("Email Tracker", "Email.svg", "Email_Footprint5000.py")
         self.agregar_boton("Roblox OSINT", "roblox.png", "OsintRoblox.py")
 
-        self.agregar_categoria("Tools")
-        self.agregar_boton("Media Downloader", "youtube.png", "Youtube5000.py")
+        self.agregar_categoria("discord")
         self.agregar_boton("Discord nitro generator", "Chrome.svg", "nitro_generator.py")
+        self.agregar_boton("Double counter bypass", "Chrome.svg", "double-counter-bypass.py")
+        self.agregar_boton("Server lookup", "Chrome.svg", "Server_Lookup.py"
+
+        self.agregar_categoria("Tools")
         self.agregar_boton("DoS attack", "Web.svg", "DoS.py")
+        self.agregar_boton("Sms bomber v4", "Web.svg", "sms.py")
+        self.agregar_boton("Media Downloader", "youtube.png", "Youtube5000.py")
+        self.agregar_boton("Notepad", "Chrome.svg", "Youtube5000.py")
 
         self.agregar_categoria("Optimization")
         self.agregar_boton("Windows11 Optimization", "Base64.svg", "optwindows11.py")
