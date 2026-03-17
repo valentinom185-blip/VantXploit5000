@@ -19,12 +19,11 @@ class App(ctk.CTk):
         # --- ESTRUCTURA DE LA INTERFAZ ---
         
         # 1. Barra Lateral (AHORA ES SCROLLABLE)
-        # Esto permite agregar infinitas herramientas y bajar con la rueda del ratón
         self.sidebar_frame = ctk.CTkScrollableFrame(self, width=230, corner_radius=0, fg_color="#0d0d12", scrollbar_button_color="#2a1b3d", scrollbar_button_hover_color="#A020F0")
         self.sidebar_frame.pack(side="left", fill="y")
 
-        # Título / Logo de la App en la barra
-        self.logo_label = ctk.CTkLabel(self.sidebar_frame, text=" VantXploit", font=ctk.CTkFont(size=24, weight="900"), text_color="#A020F0", anchor="w")
+        # Título / Logo de la App en la barra (CORREGIDO weight="bold")
+        self.logo_label = ctk.CTkLabel(self.sidebar_frame, text=" VantXploit", font=ctk.CTkFont(size=24, weight="bold"), text_color="#A020F0", anchor="w")
         self.logo_label.pack(padx=20, pady=(20, 20), fill="x")
 
         # Barra de búsqueda (Visual)
@@ -135,7 +134,7 @@ class App(ctk.CTk):
         self.agregar_categoria("Media & Utilities")
         self.agregar_boton("Media Downloader", "youtube.png", "Youtube.py")
 
-        # Agregué varias de relleno para que pruebes que el scroll funciona perfecto
+        # Relleno de prueba para el scroll
         self.agregar_categoria("Coming Soon")
         for i in range(1, 10):
             self.agregar_boton(f"Locked Module 0{i}", "lock.png", "dummy.py")
