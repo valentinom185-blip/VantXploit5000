@@ -128,7 +128,7 @@ class App(ctk.CTk):
 
         self.agregar_categoria("Target OSINT")
         self.agregar_boton("Phone OSINT", "phone.png", "Telefono5000.py")
-        self.agregar_boton("Email Tracker", "email.png", "Email_Footprint5000.py")
+        self.agregar_boton("Email Tracker", "Email.svg", "Email_Footprint5000.py")
         self.agregar_boton("Roblox OSINT", "roblox.png", "OsintRoblox.py")
 
         self.agregar_categoria("Media & Utilities")
