@@ -122,17 +122,17 @@ class App(ctk.CTk):
     def construir_menu(self):
         
         self.agregar_categoria("Network Intelligence")
-        self.agregar_boton("Public IP Scanner", "ip.png", "Tu_IP.py")
-        self.agregar_boton("Port Scanner", "port.png", "Puertos.py")
-        self.agregar_boton("Network Recon", "wifi.png", "Wifi.py")
+        self.agregar_boton("Public IP Scanner", "ip.png", "My__ip.py")
+        self.agregar_boton("Port Scanner", "port.png", "puertos5000.py")
+        self.agregar_boton("Network Recon", "wifi.png", "Wifitest5000.py")
 
         self.agregar_categoria("Target OSINT")
-        self.agregar_boton("Phone OSINT", "phone.png", "Telefono.py")
-        self.agregar_boton("Email Tracker", "email.png", "Email_Footprint.py")
+        self.agregar_boton("Phone OSINT", "phone.png", "Telefono5000.py")
+        self.agregar_boton("Email Tracker", "email.png", "Email_Footprint5000.py")
         self.agregar_boton("Roblox OSINT", "roblox.png", "OsintRoblox.py")
 
         self.agregar_categoria("Media & Utilities")
-        self.agregar_boton("Media Downloader", "youtube.png", "Youtube.py")
+        self.agregar_boton("Media Downloader", "youtube.png", "Youtube5000.py")
 
         # Relleno de prueba para el scroll
         self.agregar_categoria("Coming Soon")
