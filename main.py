@@ -131,9 +131,13 @@ class App(ctk.CTk):
         self.agregar_boton("Email Tracker", "Email.svg", "Email_Footprint5000.py")
         self.agregar_boton("Roblox OSINT", "roblox.png", "OsintRoblox.py")
 
-        self.agregar_categoria("Media & Utilities")
+        self.agregar_categoria("Tools")
         self.agregar_boton("Media Downloader", "youtube.png", "Youtube5000.py")
+        self.agregar_boton("Discord nitro generator", "Chrome.svg", "nitro_generator.py")
+        self.agregar_boton("DoS attack", "Web.svg", "DoS.py")
 
+        self.agregar_categoria("Optimization")
+        self.agregar_boton("Windows11 Optimization", "Base64.svg", "optwindows11.py")
         # Relleno de prueba para el scroll
         self.agregar_categoria("Coming Soon")
         for i in range(1, 10):
