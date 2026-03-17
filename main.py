@@ -50,7 +50,7 @@ class App(ctk.CTk):
         if os.path.exists(ruta_banner):
             img_abierta = Image.open(ruta_banner)
             # Ajustar el tamaño del banner para que quede espectacular
-            img_ctk = ctk.CTkImage(light_image=img_abierta, dark_image=img_abierta, size=(750, 150))
+            img_ctk = ctk.CTkImage(light_image=img_abierta, dark_image=img_abierta, size=(750, 200))
             self.banner_label.configure(image=img_ctk)
         else:
             self.banner_label.configure(text="[ BANNER IMAGE NOT FOUND IN ASSETS FOLDER ]", text_color="red")
